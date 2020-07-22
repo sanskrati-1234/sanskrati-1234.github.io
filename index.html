@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+ <head>
+
+	<title>Document</title>
+	<!--bootstrapScript-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- map myindia script -->
+	<script src="https://apis.mapmyindia.com/advancedmaps/v1/2egstohzftwquqhtty54uh1fy9d7pnhq/map_load?v=01."></script>
+	<!--other-->
+	<style>
+		
+    </style>
+    <link rel="stylesheet" href="css/index.css"/>
+   
+	
+
+ </head>
+ <body>
+    <div class="container">
+        <div>
+            <span id="featured">Featured</span>
+            <span id="OnSale">On Sale</span>
+            <span id="TopRated">Top Rated</span>
+        </div>
+        <hr/>
+        <div id="featuredContaint">
+            <div class="container  Containt ">
+                
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="aggregates3.jpg" alt="Card image cap">
+                    
+                        <div class = "title px-2">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price px-2">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+        
+            
+                <div class="flex-item card p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="aggregates3.jpg" alt="Card image cap">
+                    
+                        <div class = "title px-2">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price px-2">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+            
+            
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="aggregates3.jpg" alt="Card image cap">
+                    
+                        <div class = "title ">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price ">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="aggregates3.jpg" alt="Card image cap">
+                    
+                        <div class = "title ">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price ">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+            
+
+        </div>
+            
+        </div>
+        <div id="OnSaleContaint">
+            <div class="container  Containt ">
+                
+                    <div class="flex-item card p-2">
+                        
+                        <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images2.jpg" alt="Card image cap">
+                        
+                            <div class = "title px-2">
+                                <a href="#">Penna OPC - 53Grade Cement</a>
+                                <p class = "dealer-name text-muted" >By Dealer Name</p>
+                            </div> 
+                            <div class = "price px-2">
+                                <p class = "mrp-price text-muted">
+                                    MRP: <del>Rs.380.00</del>
+                                    <span class="sell-price-tag"> Selling Price:</span>
+                                    <span class="sell-price"> Rs.310.00</span>
+                                    <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                                </p>
+                            </div>
+                            <div class = "cart-buttons px-2">
+                                <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                    <span class = "social float-right">
+                                        <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                        <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                    </span>                            
+                            </div>
+            
+                    </div>
+            
+                
+                    <div class="flex-item card  p-2">
+                        
+                        <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images2.jpg" alt="Card image cap">
+                        
+                            <div class = "title px-2">
+                                <a href="#">Penna OPC - 53Grade Cement</a>
+                                <p class = "dealer-name text-muted" >By Dealer Name</p>
+                            </div> 
+                            <div class = "price px-2">
+                                <p class = "mrp-price text-muted">
+                                    MRP: <del>Rs.380.00</del>
+                                    <span class="sell-price-tag"> Selling Price:</span>
+                                    <span class="sell-price"> Rs.310.00</span>
+                                    <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                                </p>
+                            </div>
+                            <div class = "cart-buttons px-2">
+                                <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                    <span class = "social float-right">
+                                        <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                        <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                    </span>                            
+                            </div>
+            
+                    </div>
+                
+                
+                    <div class="flex-item card p-2">
+                        
+                        <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images2.jpg" alt="Card image cap">
+                        
+                            <div class = "title ">
+                                <a href="#">Penna OPC - 53Grade Cement</a>
+                                <p class = "dealer-name text-muted" >By Dealer Name</p>
+                            </div> 
+                            <div class = "price ">
+                                <p class = "mrp-price text-muted">
+                                    MRP: <del>Rs.380.00</del>
+                                    <span class="sell-price-tag"> Selling Price:</span>
+                                    <span class="sell-price"> Rs.310.00</span>
+                                    <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                                </p>
+                            </div>
+                            <div class = "cart-buttons px-2">
+                                <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                    <span class = "social float-right">
+                                        <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                        <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                    </span>                            
+                            </div>
+            
+                    </div>
+
+                    <div class="flex-item card p-2">
+                        
+                        <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images2.jpg" alt="Card image cap">
+                        
+                            <div class = "title ">
+                                <a href="#">Penna OPC - 53Grade Cement</a>
+                                <p class = "dealer-name text-muted" >By Dealer Name</p>
+                            </div> 
+                            <div class = "price ">
+                                <p class = "mrp-price text-muted">
+                                    MRP: <del>Rs.380.00</del>
+                                    <span class="sell-price-tag"> Selling Price:</span>
+                                    <span class="sell-price"> Rs.310.00</span>
+                                    <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                                </p>
+                            </div>
+                            <div class = "cart-buttons px-2">
+                                <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                    <span class = "social float-right">
+                                        <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                        <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                    </span>                            
+                            </div>
+            
+                    </div>
+                
+
+            </div>
+
+        
+            
+            
+            
+            
+        </div>
+        <div id="TopRatedContaint">
+            <div class="container  Containt ">
+                
+                <div class="flex-item card p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images.jpg" alt="Card image cap">
+                    
+                        <div class = "title px-2">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price px-2">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+        
+            
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images.jpg" alt="Card image cap">
+                    
+                        <div class = "title px-2">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price px-2">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+            
+            
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images.jpg" alt="Card image cap">
+                    
+                        <div class = "title ">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price ">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+
+                <div class="flex-item card  p-2">
+                    
+                    <img class="card-img img-fluid text-center my-1"  onerror='this.src="default.jpg"' src="images.jpg" alt="Card image cap">
+                    
+                        <div class = "title ">
+                            <a href="#">Penna OPC - 53Grade Cement</a>
+                            <p class = "dealer-name text-muted" >By Dealer Name</p>
+                        </div> 
+                        <div class = "price ">
+                            <p class = "mrp-price text-muted">
+                                MRP: <del>Rs.380.00</del>
+                                <span class="sell-price-tag"> Selling Price:</span>
+                                <span class="sell-price"> Rs.310.00</span>
+                                <span class="tax-tag" style="font-family: 'Roboto' !important; color: red; font-size: 12px;" > *Inclusive of all Taxes</span>
+                            </p>
+                        </div>
+                        <div class = "cart-buttons px-2">
+                            <b class="text-muted"><button class = "add-cart-btn btn btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Add to Cart"><i class="fa fa-shopping-cart"></i>  Add to Cart</button></b>
+                                <span class = "social float-right">
+                                    <button class = "btn btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></button>
+                                    <button class = "btn btn-outline-info" data-toggle="tooltip" data-placement="top" title="Add to Compare"><i class="fa fa-exchange"></i></button>
+                                </span>                            
+                        </div>
+        
+                </div>
+            
+
+        </div>
+        </div>
+
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#OnSale").click(function(){
+              $("#featuredContaint").css("display",'none')
+              $("#TopRatedContaint").css("display",'none')
+              /*$('#OnSaleContaint').css("display",'block')*/
+              $("#OnSale").css("font-weight","bold")
+              $("#featured").css("font-weight",'normal')
+              $("#TopRated").css("font-weight",'normal')
+              $('#OnSaleContaint').css("display",'flex')
+            });
+            $("#featured").click(function(){
+              $("#TopRatedContaint").css("display",'none')
+              $('#OnSaleContaint').css("display",'none')  
+              $("#featuredContaint").css("display",'block')
+              $("#OnSale").css("font-weight","normal")
+              $("#featured").css("font-weight",'bold')
+              $("#TopRated").css("font-weight",'normal')
+             
+            });
+
+            $("#TopRated").click(function(){
+              $("#featuredContaint").css("display",'none')
+              $('#OnSaleContaint').css("display",'none')
+              $("#TopRatedContaint").css("display",'block')
+              $("#OnSale").css("font-weight","normal")
+              $("#featured").css("font-weight",'normal')
+              $("#TopRated").css("font-weight",'bold')
+             
+            });
+            $(".flex-item").focusin(function(){
+                $(this).addClass("shadow")
+            });
+            $(".flex-item").focusout(function(){
+                $(this).removeClass("shadow")
+            });
+          });m
+    </script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .Containt{
+            width: 100%;
+            height: auto;
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+    </style>
+	
+        
+            
+                        
+                   
+	    
+      
+	</body>
+</html>
